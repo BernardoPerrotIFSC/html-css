@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        caption{
+            font-size: 1.5em;        
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
+        }    
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Tabela dos estados</caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">
+                    Total de habitantes
+                </th>
+                <td>
+                    0000
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
